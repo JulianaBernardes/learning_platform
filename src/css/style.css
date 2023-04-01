@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    
+    --menu_height: 50px;
+    --font_black: #292929;
+    --bg_color_1: #0a0a57;
+    --bg_white: #f2f2f2;
+    --primary_color_dark: #0a0a57;
+    --primary_color_light: #3E7996;
+    --secondary_color_dark: #02533a;
+    --secondary_color_light: #069E6E;
+}
