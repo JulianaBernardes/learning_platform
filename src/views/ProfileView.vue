@@ -1,18 +1,15 @@
 <template>
-    <Menu/>
     <div class="profile">
         Your profile
     </div>
 </template>
     
-<style scoped lang="css" src="../css/profile.css"></style>
+<style scoped lang="css" src="../styles/profile.css"></style>
     
 <script>
-    import Menu from '../components/Menu.vue'
     export default {
         name: 'Profile',
         components: {
-            Menu
         },
         data() {
             return {

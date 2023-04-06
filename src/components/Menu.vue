@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<style scoped lang="css" src="../css/menu.css"></style>
+<style scoped lang="css" src="../styles/menu.css"></style>
 
 <script>
 export default {

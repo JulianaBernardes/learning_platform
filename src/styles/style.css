@@ -10,10 +10,12 @@ body {
     
     --menu_height: 50px;
     --font_black: #292929;
-    --bg_color_1: #0a0a57;
+    --font_white: #E8EBE6;
+    --bg_color_1: #1e6ac4;
     --bg_white: #f2f2f2;
-    --primary_color_dark: #0a0a57;
-    --primary_color_light: #3E7996;
-    --secondary_color_dark: #02533a;
-    --secondary_color_light: #069E6E;
+    --primary_color_dark: #1e6ac4;
+    /* --primary_color_light: #a4bad2; */
+    --primary_color_light: #43627f;
+    --secondary_color_dark: #163300;
+    --secondary_color_light: #80e142;
 }

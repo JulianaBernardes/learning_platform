@@ -1,18 +1,15 @@
 <template>
-    <Menu/>
     <div class="intro">
-        Welcome
+        Introdução
     </div>
 </template>
     
-<style scoped lang="css" src="../css/intro.css"></style>
+<style scoped lang="css" src="../styles/intro.css"></style>
     
 <script>
-    import Menu from '../components/Menu.vue'
     export default {
         name: 'Intro',
         components: {
-            Menu
         },
         data() {
             return {
