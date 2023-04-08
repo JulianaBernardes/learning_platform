@@ -1,7 +1,8 @@
 <template>
     <div class="menu">
             <div class="menu_items">
-                <router-link to="/profile"><font-awesome-icon icon="user" /></router-link>
+                <!-- <router-link to="/profile"><font-awesome-icon icon="user" /></router-link> -->
+                <router-link to="/login"><font-awesome-icon icon="user" /></router-link>
             </div>
             <div class="menu_logo"></div>
     </div>
