@@ -1,0 +1,36 @@
+.button_controls {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    z-index: 2;
+    transition: color,background-color .15s ease-in-out;
+}
+.next {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    cursor: pointer;
+    background-color: var(--color_interactive_positive);
+    color: var(--color_interactive_control);
+}
+.show_button .next {
+    visibility: initial !important;
+    opacity: 1 !important;
+    transition: opacity 1s
+}
+.next:hover {
+    background-color: var(--color_interactive_positive_hover);
+    border-color: var(--color_interactive_positive_hover);
+    color: var(--color_interactive_positive_control);
+}
+.show_button{
+    visibility: initial;
+    opacity: 1;
+    transition: opacity 1s
+}
