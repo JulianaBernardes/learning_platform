@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory  } from 'vue-router'
 import IntroView from '../views/IntroView.vue'
 import ProfileView from '../views/ProfileView.vue'
 import PhysicsView from '../views/physics/PhysicsView.vue'
+import QuizzView from '../views/QuizzView.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/physics',
     name: 'physics',
     component: PhysicsView
+  },
+  {
+    path: '/physics/oblique_movement/quizz',
+    name: 'quizz',
+    component: QuizzView
   },
 ]
 

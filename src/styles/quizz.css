@@ -1,0 +1,107 @@
+.quizz {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.main {
+    display: grid;
+    grid-template-columns: minmax(0,auto) 1fr;
+    width: 90%;
+    min-height: 80vh;
+    max-height: 90vh;
+    max-width: 900px;
+}
+
+.question_right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.question_left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.question_left .question_image {
+    display: block;
+    width: 100%;
+}
+
+.intro {
+    font-size: 17px;
+    color: var(--font_black);
+}
+
+.question {
+    color: var(--seccondary_dark);
+    margin-top: 16px
+}
+
+.question .question_count {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.question_count .number.total {
+    color: var(--font_black);
+}
+
+.question .text {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.options {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options button {
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    color: var(--font_black);
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.previous_questions .question .text {
+    font-weight: 600
+}
+
+.final_questions .question .text {
+    font-weight: 500
+}
+
+.options button.selected_answer {
+    background-color: var(--color_background_neutral_active) !important
+}
+.options button.right_answer {
+    background-color: var(--color_interactive_positive) !important
+}
+
+.options button.wrong_answer {
+    color: var(--font_white) !important;
+    background-color:  var(--color_interactive_negative) !important
+}
