@@ -31,4 +31,6 @@ body {
     --color_interactive_negative_hover: #8e1b0b;
     --color_interactive_negative_active: #761709;
 
+    --color_background_neutral_active: rgba(22,51,0,.18);
+
 }
