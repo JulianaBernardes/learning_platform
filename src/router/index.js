@@ -3,6 +3,7 @@ import IntroView from '../views/IntroView.vue'
 import ProfileView from '../views/ProfileView.vue'
 import PhysicsView from '../views/physics/PhysicsView.vue'
 import QuizzView from '../views/QuizzView.vue'
+import ObliqueMovementExperience from '../views/physics/experiments/ObliqueMovementExperience.vue';
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     name: 'quizz',
     component: QuizzView
   },
+  {
+    path: '/physics/oblique_movement/experiment',
+    name: 'oblique_movement_experiment',
+    component: ObliqueMovementExperience
+  }
 ]
 
 const router = createRouter({
