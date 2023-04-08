@@ -18,23 +18,29 @@
 
 .menu_items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+  margin-right: 15px;
+  align-items: center;
 }
 
 .menu_items a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #dce8f6;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
   text-align: center;
   padding: 5px;
+  height: 25px;
+  width: 25px;
+  padding: 18px;
+  font-size: 22px;
+  color: var(--blue_light);
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 a.router-link-exact-active {
-  color: var(--secondary_color_light);
+  color: var(--green_light);
 }
 
 .menu_logo {
