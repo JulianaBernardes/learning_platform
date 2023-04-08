@@ -9,6 +9,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faArrowRight, faHatWizard, faHouse, faRocket, faTrophy, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faHatWizard, faArrowRight, faRocket, faHouse, faUser, faTrophy)
+import jQuery from 'jquery';
+window.$ = window.jQuery = jQuery;
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
