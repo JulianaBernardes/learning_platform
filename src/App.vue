@@ -33,12 +33,22 @@ export default {
         {
           href: '/',
           title: 'Introdução',
-          icon: 'fa fa-user'
+          icon: {
+            element: 'font-awesome-icon',
+            attributes: {
+                icon: 'fa-solid fa-house'
+            },
+          },
         },
         {
-          href: '/physics',
+          // href: '/physics',
           title: 'Física',
-          icon: 'fa fa-chart-area',
+          icon: {
+            element: 'font-awesome-icon',
+            attributes: {
+                icon: 'fa-solid fa-rocket fa-xs'
+            },
+          },
           child: [
             {
               // href: '/physics/oblique_movement',
