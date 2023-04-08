@@ -65,7 +65,17 @@ export default {
               ]
             }
           ]
-        }
+        },
+        {
+          href: '/ranking',
+          title: 'Ranking',
+          icon: {
+            element: 'font-awesome-icon',
+            attributes: {
+                icon: 'fa-solid fa-trophy'
+            },
+          },
+        },
       ],
       collapsed: false
       

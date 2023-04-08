@@ -4,6 +4,7 @@ import ProfileView from '../views/ProfileView.vue'
 import PhysicsView from '../views/physics/PhysicsView.vue'
 import QuizzView from '../views/QuizzView.vue'
 import ObliqueMovementExperience from '../views/physics/experiments/ObliqueMovementExperience.vue';
+import RankingView from '../views/RankingView.vue'
 
 const routes = [
   {
@@ -32,7 +33,13 @@ const routes = [
     path: '/physics/oblique_movement/experiment',
     name: 'oblique_movement_experiment',
     component: ObliqueMovementExperience
-  }
+  },
+  {
+    path: '/ranking',
+    name: 'ranking',
+    component: RankingView
+  },
+
 ]
 
 const router = createRouter({

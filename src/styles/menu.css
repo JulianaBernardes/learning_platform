@@ -35,7 +35,7 @@
   font-size: 22px;
   color: var(--blue_light);
   background-color: white;
-  border-radius: 50%;
+  border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
