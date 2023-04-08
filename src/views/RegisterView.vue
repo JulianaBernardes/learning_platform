@@ -15,7 +15,7 @@
             <div class="required_field">
                 <input type="password" class="required_field" placeholder="Confirmar Palavra-passe" aria-label="Confirmar Palavra-passe" name="confirm_password" v-model="confirm_password" required>
             </div>
-            <button type="submit" class="required_field" :disabled="!(username.length && password.length && confirm_password.length && email.length)">Entrar</button>
+            <button type="submit" :disabled="!(username.length && password.length && confirm_password.length && email.length)">Entrar</button>
             <p class="register">Já tem conta? <a href="#/login">Login</a></p>
         </form>
     </div>

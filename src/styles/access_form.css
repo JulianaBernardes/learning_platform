@@ -8,14 +8,14 @@ h1 {
     color: var(--blue_dark);
     font-weight: 800;
 }
-.register {
+.register,.login {
     font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
-.register a {
+.register a, .login a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--blue_dark);
@@ -70,7 +70,7 @@ button:active {
 }
 button[disabled] {
   background-color: var(--seccondary_dark);
-  filter: brightness(85%);
+  filter: brightness(90%);
   color: var(--font_white);
   cursor: auto;
 }
