@@ -45,19 +45,22 @@
         questions: [
           {
             id: 1,
-            text: "Movimento oblíquo é:",
+            text: "Em um movimento oblíquo, qual das seguintes afirmações é verdadeira sobre a trajetória do objeto?",
             options: [
-              "o movimento uniforme.", "estudado na física.", "um teste de velocidade.", "o estudo dos corpos em MRU."
+              "A trajetória é uma linha reta.", "A trajetória é uma parábola.", "A trajetória é uma circunferência.", "A trajetória é uma elipse."
             ],
-            answer: "estudado na física.",
+            answer: "A trajetória é uma parábola.",
           },
           {
             id: 2,
-            text: "Movimento oblíquo pode ser:",
+            text: "Durante um movimento oblíquo, qual das seguintes afirmações é verdadeira sobre a velocidade do objeto?",
             options: [
-              "dividido em dois vetores.", "estudado na física.", "um teste de velocidade.", "o estudo dos corpos em MRU."
+              "A velocidade é constante ao longo de toda a trajetória.",
+              "A velocidade varia apenas na direção vertical.",
+              "A velocidade varia apenas na direção horizontal.",
+              "A velocidade varia tanto na direção vertical quanto na direção horizontal."
             ],
-            answer: "dividido em dois vetores.",
+            answer: "A velocidade varia tanto na direção vertical quanto na direção horizontal.",
           },
 
         ],

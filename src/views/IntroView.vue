@@ -2,7 +2,7 @@
     <div class="intro">
         <div class="intro-text">
             <h1><font-awesome-icon :icon="['fas', 'book-open']" /> Matérias</h1>
-            <p>Lista abaixo das suas matérias</p>
+            <p>Lista das suas matérias</p>
         </div>
 
         <div class="container-intro">

@@ -1,6 +1,6 @@
 <template>
     <div class="experiment_oblique_movement">
-        Física experiment
+        Física experimento
     </div>
 </template>
 
