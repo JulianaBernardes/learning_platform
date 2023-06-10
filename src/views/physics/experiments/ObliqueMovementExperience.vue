@@ -1,6 +1,9 @@
 <template>
     <div class="experiment_oblique_movement">
-        Física experimento
+        <div class="intro-text">
+            <h1><font-awesome-icon :icon="['fas', 'car-side']" /> Física experimento</h1>
+            <p>Experimento de decomposição de velocidade</p>
+        </div>
     </div>
 </template>
 

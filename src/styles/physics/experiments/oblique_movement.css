@@ -1,0 +1,15 @@
+.intro-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro-text h1 {
+    font-size: 32px;
+    color: var(--seccondary_light);
+}
+
+.intro-text p {
+    font-size: 16px;
+    color: var(--font_gray);
+    margin-top: 10px;
+}

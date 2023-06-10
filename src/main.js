@@ -6,9 +6,9 @@ import VueSidebarMenu from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faArrowRight, faBookOpen, faHatWizard, faHouse, faNewspaper, faRocket, faTrophy, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faBookOpen, faCarSide, faHatWizard, faHouse, faNewspaper, faRocket, faTrophy, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faHatWizard, faArrowRight, faRocket, faHouse, faUser, faTrophy, faBookOpen, faNewspaper)
+library.add(faHatWizard, faArrowRight, faRocket, faHouse, faUser, faTrophy, faBookOpen, faNewspaper, faCarSide)
 import jQuery from 'jquery';
 window.$ = window.jQuery = jQuery;
 
